@@ -58,7 +58,7 @@ const showBooks = () => {
   }
 }
 
-if (location.pathname === '/pages/books' || location.pathname === '/DEV003-data-lovers/src/pages/books.html') {
+if (location.pathname === '/pages/books' || location.pathname === '/DEV003-data-lovers/pages/books.html') {
   showBooks()
 }
 
