@@ -438,9 +438,10 @@ iframe{
   color: #fff;
   padding: 5px 20px;
   border-radius: 30px;
-  margin-bottom: 40px;
+  margin-top: 40px;
   transition: .5s;
   cursor: pointer;
+  margin-left: 100px;
 }
 
 .click-spell:hover {
@@ -500,6 +501,10 @@ iframe{
     grid-template-columns: repeat(3, 1fr);
 
   }
+  .click-spell {
+    margin-left: 20px;
+  }
+
 
 }
 
@@ -569,6 +574,10 @@ iframe{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
+  }
+
+  .click-spell {
+    margin-left: 20px;
   }
 
 }
